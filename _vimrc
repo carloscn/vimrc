@@ -49,6 +49,7 @@ Plug 'frazrepo/vim-rainbow'
 Plug 'vim-scripts/taglist.vim'
 Plug 'preservim/tagbar'
 Plug 'tpope/vim-surround'
+Plug 'Shougo/neocomplcache.vim'
 " Initialize plugin system
 call plug#end()
 
