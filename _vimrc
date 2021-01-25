@@ -51,6 +51,8 @@ Plug 'preservim/tagbar'
 Plug 'tpope/vim-surround'
 Plug 'Shougo/neocomplcache.vim'
 " Initialize plugin system
+" http://ctrlpvim.github.io/ctrlp.vim/
+Plug 'ctrlpvim/ctrlp.vim.git'
 call plug#end()
 
 
