@@ -72,7 +72,7 @@ set softtabstop=4
 
 set fileformats=unix
 set hlsearch
-set mouse=a
+" set mouse=a
 set gcr=n-v-c:ver25-Cursor/lCursor,ve:ver35-Cursor,o:hor50-Cursor,i-ci:ver25-Cursor/lCursor
 let g:ycm_seed_identifiers_with_syntax=1 "自动补全命令
 let g:ycm_complete_in_strings=1 "自动补全字符串
@@ -86,6 +86,9 @@ inoremap " ""<esc>i
 noremap tt o<esc>
 noremap TT O<esc>
 nnoremap <C-S> :w<CR>
+" remap the copy/paste from or to system
+nmap <c-v> "+gp
+nmap <c-c> "+y
 
 function! TabPos_ActivateBuffer(num)
     let s:count = a:num
